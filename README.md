@@ -1,4 +1,4 @@
-# Simple Flask App
+# Simple Flask App Konel83
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
