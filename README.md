@@ -11,6 +11,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   # aktywowanie hermetycznego środowiska
   $ source .venv/bin/activate
+  $ make deps - instalacja srodowiska
+  $ make lint - sprawdzenie wygladu kodu
+  $ make test - odpalenie testow
+  $ make run  - uruchomienie aplikacji
+  $ make docker_build - zbudowanie pakietu dockera (trzeba z sudo wykonac)
+  $ make docker_run - uruchomienie aplikacji jako doker (tez z sudo)
+
+  # aleternatywnie zamiast make deps
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
@@ -47,7 +55,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
