@@ -1,5 +1,7 @@
 # Simple Flask App Konel83
 
+[![Build Status](https://travis-ci.com/konel83/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/konel83/se_hello_printer_app)
+
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
