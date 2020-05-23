@@ -11,4 +11,4 @@ script:
 deploy:
   provider: heroku
   app: fierce-garden-20344
-  api_key: ${1e7d3874-c0bd-4a9c-96f2-e0128d5e9bb5}
+  api_key: ${HEROKU_API_KEY}
