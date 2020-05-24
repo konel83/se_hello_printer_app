@@ -27,7 +27,7 @@ pipeline {
             ]
         }
       }
-      post{
+      stage('post'){
         always{
           cobertura autoUpdateHealth: false,
           autoUpdateStability: false,
