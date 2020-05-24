@@ -5,7 +5,7 @@ test:
   image: "python:3"
   stage: test
   script:
-  - mkae deps
+  - make deps
   - make test
   - make lint
 docker:
