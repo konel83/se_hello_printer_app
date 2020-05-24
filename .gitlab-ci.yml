@@ -1,12 +1,12 @@
 stages:
-- test
-- apk add --update make
-- make docker_build
+  - test
 test:
   image: "python:3"
   stage: test
   script:
+  - apk add --update make
   - make deps
+  - make docker_build
   - PYTHONPATH=. py.test --verbose -s
 docker:
   image: docker:stable
