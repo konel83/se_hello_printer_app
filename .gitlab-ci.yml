@@ -5,7 +5,6 @@ test:
   image: "python:3"
   stage: test
   script:
-  - apk add --update make
   - make docker_build
 docker:
   image: docker:stable
